@@ -9,13 +9,15 @@ Creating a canonical instance of Kat in Haskell
 ```hs
 {-# LANGUAGE TypeOperators #-}
 
+import Data.List (intercalate)
+
 -- |Represents instances of Kat.
 data (🙀)
     = Katsaii
     | Nuxii
-    deriving (Eq, Show) 
+    deriving (Show)
 
 main = putStrLn $ let katsaii = show Katsaii
                       nuxii   = show Nuxii
-                      in "Kat is either " ++ katsaii ++ " or " ++ nuxii
+                      in intercalate " ✨ " ["Kat is either", katsaii, "or", nuxii, ""]
 ```
