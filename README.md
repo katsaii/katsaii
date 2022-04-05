@@ -1,6 +1,6 @@
 # NuxiiGit
 
-NuxiiGit contains the source code to "Kat," a command-line application that periodically produces [open-source projects](https://github.com/NuxiiGit?tab=repositories) and [art works](https://katsaii.newgrounds.com/). 
+NuxiiGit contains the source code to "Kat," a command-line application that periodically produces [open-source projects](https://github.com/NuxiiGit?tab=repositories) and [art works](https://nuxiigit.github.io/content/works). 
 
 ## Examples
 
