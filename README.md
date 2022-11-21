@@ -1,6 +1,6 @@
 # Katsaii
 
-Katsaii contains the source code to "Kat," a command-line application that periodically produces [open-source projects](https://github.com/NuxiiGit?tab=repositories) and [art works](https://nuxiigit.github.io/content/works). 
+Katsaii contains the source code to "Kat," a command-line application that periodically produces [open-source projects](https://github.com/katsaii?tab=repositories) and [art works](https://www.katsaii.com/content/works). 
 
 ## Examples
 
