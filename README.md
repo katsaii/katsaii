@@ -1,23 +1,22 @@
-# Katsaii
+```prolog
+% pairs:    [-katsaii,k-atsaii,ka-tsaii,kat-saii,kats-aii,katsa-ii,katsai-i,katsaii-]
+% prefixes: [,k,ka,kat,kats,katsa,katsai,katsaii]
+% suffixes: [katsaii,atsaii,tsaii,saii,aii,ii,i,]
+```
 
-Katsaii contains the source code to "Kat," a command-line application that periodically produces [open-source projects](https://github.com/katsaii?tab=repositories) and [art works](https://www.katsaii.com/content/works). 
+<p align="center">
+  <img width="40%" src="https://www.katsaii.com/image/works/fire.png" />
+</p>
 
-## Examples
+```prolog
+name("katsaii").
 
-Creating a canonical instance of Kat in Haskell
+?-
+  name(Name),
+  findall(Prefix-Suffix, string_concat(Prefix, Suffix, Name), Pairs),
+  pairs_keys_values(Pairs, Prefixes, Suffixes),
 
-```hs
-{-# LANGUAGE TypeOperators #-}
-
-import Data.List (intercalate)
-
--- |Represents instances of Kat.
-data (🙀)
-    = Katsaii
-    | Nuxii
-    deriving (Show)
-
-main = putStrLn $ let katsaii = show Katsaii
-                      nuxii   = show Nuxii
-                      in intercalate " ✨ " ["Kat is either", katsaii, "or", nuxii, ""]
+  write("pairs:    "), write(Pairs), nl,
+  write("prefixes: "), write(Prefixes), nl,
+  write("suffixes: "), write(Suffixes).
 ```
