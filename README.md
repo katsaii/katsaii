@@ -5,7 +5,7 @@
 ```
 
 <p align="center">
-  <img width="40%" src="https://www.katsaii.com/image/works/fire.png" />
+  <img width="40%" style="min-width : 300px" src="./img.png" />
 </p>
 
 ```prolog
